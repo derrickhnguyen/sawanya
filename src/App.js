@@ -70,7 +70,7 @@ function App() {
               }}
               onClick={toggleImageModal(index)}
             >
-              <img src={source} />
+              <img alt="" src={source} />
             </button>
           ))}
         </Masonry>
